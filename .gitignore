@@ -1,0 +1,29 @@
+# Large artifacts live in GitHub Releases (weights) and Zenodo (datasets).
+datasets/
+runs/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.cache
+
+# Image data never goes into git (figures for docs go in docs/ if needed).
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

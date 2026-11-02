@@ -1,0 +1,6 @@
+# Versions used in the paper (Python 3.12, CUDA 12.4).
+# For CUDA builds of PyTorch, install torch/torchvision from the PyTorch index first:
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
+ultralytics==8.4.4
+torch==2.6.0
+torchvision==0.21.0
